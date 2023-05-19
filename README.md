@@ -29,11 +29,11 @@ End the program.
 ```python
 #python program for copying a file
 #developed by:Praveen D
-#registration number:22005917
-with open("ok.txt","r") as fp:
-    data=fp.read()
-with open("copy.txt","w") as cp:
-    cp.write(data)  
+#registration number:212222240076
+with open("sample1.txt", "r") as firstfile:
+    with open("sample2.txt", "a") as secondfile:
+        for line in firstfile:
+            secondfile.write(line)  
 ```
 
 ### OUTPUT:
