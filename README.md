@@ -35,9 +35,10 @@ with open("sample1.txt", "r") as firstfile:
         for line in firstfile:
             secondfile.write(line)  
 ```
-
+### FILE:
+![file](./copy1.png)
 ### OUTPUT:
-![output](./output2.png)
+![output](./copy2.png)
 
 
 ## RESULT:
